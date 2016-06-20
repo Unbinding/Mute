@@ -1,0 +1,13 @@
+name: Mute
+version: 1.0
+main: com.unbinding.mute.Mute
+commands:
+  mute:
+    description: Mute players.
+permissions:
+  mute.*:
+    descriptions: All mute permissions.
+    children:
+      mute.mute: true
+  mute.mute:
+    description: Permission to mute players.
